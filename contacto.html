@@ -47,6 +47,57 @@
 			</nav>
         </dev>
 
+		<form action="">
+			<label for="">
+				Correo
+			</label>
+			<input type="email" name="email"  size="35" value="pahe_23@alu.uabcs.mx" readonly>
+			<br>
+			<label for="nombre">
+				Ingrese su nombre:
+			</label>
+			<input type="text" name="name" id="nombre" autofocus minlength="3" maxlength="10" required pattern="[A-Za-a]{3}" title="solo 3 letras">
+			<br>
+			<label for="apellido">
+				Ingrese su Apellido:
+			</label>
+			<input type="text" name="lastname" value="" placeholder="Hernandez" required disabled>
+			<br>
+			<label>
+				Telefono
+			</label>
+			<input type="number" min="0" max="20" step="2" name="">
+			<br>
+			<label>
+				Genero:
+			</label>
+			<label>
+				Mujer
+			</label>
+			<input type="radio" name="Genero" value="">
+			<label>
+				Hombre
+			</label>
+			<input type="radio" name="Genero" value="">
+			<br>
+			<label for="preference">
+				Preferencias
+			</label>
+			<label>
+				Pizza
+			</label>
+			<input type="checkbox" name="Preferencias" value="Pizza">
+			<label>
+				Pozole
+			</label>
+			<input type="checkbox" name="Preferencias" value="Pozole">
+			<br>
+			<input type="submit" name="" value="Guardar">
+			<br>
+			<input type="button" name="" value="Botón">
+		</form>
+		
+
 
 
 
