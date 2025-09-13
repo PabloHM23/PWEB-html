@@ -47,27 +47,47 @@
 			</nav>
         </dev>
 
-		<form action="">
-			<label for="">
+		<form action="mppw.html" method="post" autocomplete="off">
+			<label>
 				Correo
 			</label>
 			<input type="email" name="email"  size="35" value="pahe_23@alu.uabcs.mx" readonly>
+			<label>
+				Contraseña
+			</label>
+			<input type="password" name="">
 			<br>
+			<label>
+				Seleccione una opción:
+			</label>
+
+			<br>
+
 			<label for="nombre">
 				Ingrese su nombre:
 			</label>
-			<input type="text" name="name" id="nombre" autofocus minlength="3" maxlength="10" required pattern="[A-Za-a]{3}" title="solo 3 letras">
+			<input type="text" name="name" id="nombre" autofocus minlength="3" maxlength="10">
+			
 			<br>
+			
 			<label for="apellido">
 				Ingrese su Apellido:
 			</label>
-			<input type="text" name="lastname" value="" placeholder="Hernandez" required disabled>
+			<input type="text" name="lastname" value="" placeholder="Hernandez">
+			<label for="apellido">
+ 				Ingrese su Segundo Apellido (opcional):
+			</label>
+			<input type="text" name="lastname" value="" placeholder="" required pattern="[A-Za-a]{3}" title="solo 3 letras" required disabled>
+
 			<br>
+			
 			<label>
 				Telefono
 			</label>
 			<input type="number" min="0" max="20" step="2" name="">
+			
 			<br>
+			
 			<label>
 				Genero:
 			</label>
@@ -79,7 +99,9 @@
 				Hombre
 			</label>
 			<input type="radio" name="Genero" value="">
+			
 			<br>
+			
 			<label for="preference">
 				Preferencias
 			</label>
@@ -92,9 +114,24 @@
 			</label>
 			<input type="checkbox" name="Preferencias" value="Pozole">
 			<br>
-			<input type="submit" name="" value="Guardar">
+
+			<label for="">
+				Mensaje:
+			</label>
+			<textarea placeholder="Escribe aquí:"></textarea>
+
 			<br>
+			
+			<input type="submit" name="" value="Guardar">
+			
+			<br>
+			
 			<input type="button" name="" value="Botón">
+
+			<button type="submit">
+				Enviar Datos
+			</button>
+		
 		</form>
 		
 
