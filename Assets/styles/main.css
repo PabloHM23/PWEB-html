@@ -71,7 +71,7 @@ li:last-child{
 }
 
 .pass{
-    text-transform: capitalize;
+    text-transform: uppercase;
 
 }
 
@@ -84,3 +84,7 @@ li:last-child{
     text-align: center;
 }
 
+.subrayado{
+    text-decoration: underline overline;
+    text-decoration-color: #000000;
+}
