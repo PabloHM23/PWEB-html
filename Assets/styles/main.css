@@ -1,4 +1,86 @@
-h1{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link{
+    color: aqua;
+}
+
+a:hover{
+    color: aliceblue;
+    background-color: #000000;
+}
+
+@font-face {
+    font-family: Royal Riot;
+    src: url(../fonts/Royal\ Riot.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title{
+    font-family: "Royal Riot";
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.fondo_parrafo0{
+    background-color: aquamarine;
+}
+
+.fondo_parrafo0:hover{
+    color: aliceblue;
+    background-color: #000000;
+}
+
+.fondo_parrafo1{
+    background-color: antiquewhite;
+}
+
+.fondo_parrafo2{
+    background-color: beige;
+}
+.fondo_parrafo2:hover{
+    color: aliceblue;
+    background-color: #000000;
+}
+
+.fondo_parrafo3{
+    background-color: burlywood;
+}
+
+.fondo_parrafo4{
+    background-color: chocolate;
+}
+.fondo_parrafo4:hover{
+    color: aliceblue;
+    background-color: #000000;
+}
+
+li:first-child{
+    background-color: antiquewhite;
+}
+
+li:last-child{
+    background-color: black;
+    color: white;
+}
+
+.label_email{
+    font-weight: 900;
+}
+
+.pass{
+    text-transform: capitalize;
+
+}
+
+.title_entrada{
+    text-shadow: 2px 2px 5px aqua;
+}
+
+#texto_1{
     background-color: aqua;
+    text-align: center;
 }
 
