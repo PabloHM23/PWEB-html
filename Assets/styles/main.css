@@ -11,6 +11,10 @@ a:hover{
     background-color: #000000;
 }
 
+a{
+    
+}
+
 @font-face {
     font-family: Royal Riot;
     src: url(../fonts/Royal\ Riot.otf);
@@ -80,11 +84,20 @@ li:last-child{
 }
 
 #texto_1{
-    background-color: aqua;
+    background-color: rgb(80, 151, 151);
     text-align: center;
+    border: #000000;
+    border-radius: 40px;
+    border-style: double;
+    border-color: aqua;
 }
 
 .subrayado{
     text-decoration: underline overline;
     text-decoration-color: #000000;
+}
+
+#texto_2{
+    background-image: url(../img/texto2.jpeg);
+    background-size: contain;
 }
